@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Buscar Código de Falha</h2>
+<form method="POST" action="/result">
+    <label for="codigo">Código:</label>
+    <input type="text" id="codigo" name="codigo" required>
+    <button type="submit">Buscar</button>
+</form>
+{% endblock %}

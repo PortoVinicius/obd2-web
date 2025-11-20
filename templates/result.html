@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Resultado da Busca</h2>
+
+{% if info %}
+    <h3>{{ info.codigo }}</h3>
+    <p><strong>Descrição:</strong> {{ info.descricao }}</p>
+
+    {% if info.causes %}
+        <p><strong>Causas possíveis:</strong> {{ info.causes }}</p>
+    {% endif %}
+
+    {% if info.video %}
+        <h3>Vídeo relacionado</h3>
+        <iframe width="560" height="315" src="{{ info.video }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+
+{% else %}
+    <p>Código não encontrado.</p>
+{% endif %}
+
+<a href="/">Voltar</a>
+{% endblock %}
