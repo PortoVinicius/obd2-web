@@ -1,0 +1,24 @@
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de ambiente sensíveis
+.env
+
+# Ignorar pastas de controle de versão
+.git/
+.gitignore
+
+# Ignorar pastas de dependências locais
+venv/
+env/
+*.egg-info/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
