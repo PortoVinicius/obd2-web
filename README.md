@@ -6,8 +6,14 @@ obd2-web/
 ├── requirements.txt  # Dependências Python
 ├── codes.json        # Base de códigos OBD2
 └── templates/
+    ├── base.html
     ├── index.html    # Formulário de busca
-    └── result.html   # Página de resultado
+    ├── result.html   # Página de resultado
+    ├── about.html
+    ├── notfound.html
+    ├── produtos.html
+    ├── diagnostico_guiado.html
+
 ```
 
 
