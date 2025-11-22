@@ -1,3 +1,5 @@
+## 📂 Estrutura do projeto
+
 ```bash
 obd2-web/
 │
@@ -40,5 +42,5 @@ Tudo rodando dentro de **Docker**, pronto para qualquer computador.
 
 ---
 
-## 📂 Estrutura do projeto
+
 
