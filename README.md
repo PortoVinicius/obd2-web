@@ -5,6 +5,8 @@ obd2-web/
 ├── Dockerfile
 ├── requirements.txt  # Dependências Python
 ├── codes.json        # Base de códigos OBD2
+├── static/
+│   └── styles.css	
 └── templates/
     ├── base.html
     ├── index.html    # Formulário de busca
